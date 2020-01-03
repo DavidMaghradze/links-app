@@ -1,6 +1,9 @@
 {
   "name": "mern-links",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.1"
+  },
   "description": "Links Mern stack application",
   "main": "app.js",
   "scripts": {
