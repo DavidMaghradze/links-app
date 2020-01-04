@@ -1,0 +1,27 @@
+.auth-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60%;
+  padding: 20px;
+}
+
+.auth-formfields {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 30px 0;
+}
+
+.auth-formfield > div,
+.auth-formfield input {
+  width: 100%;
+}
+
+.auth-card footer {
+  display: flex;
+}
+
+.auth-card footer button:not(:last-child) {
+  margin-right: 15px;
+}

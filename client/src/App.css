@@ -1,0 +1,28 @@
+body {
+  background: #333;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #3f51b5;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+a:hover {
+  color: #1e88e5;
+}

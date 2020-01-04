@@ -1,0 +1,28 @@
+.MuiToolbar-root {
+  justify-content: space-between;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu li:not(last-child) {
+  margin-right: 10px;
+}
+
+.navbar-menu-item {
+  color: #eee;
+  transition: 0.3s ease-out;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-menu-item:not(last-child) {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar-menu-item:hover,
+.navbar-menu-item.active {
+  color: #ffdd7a;
+  border-bottom: 2px solid #ffdd7a;
+}
