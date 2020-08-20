@@ -23,7 +23,7 @@
   "author": "David Maghradze",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "config": "^3.2.4",
     "cross-env": "^6.0.3",
     "express": "^4.17.1",
